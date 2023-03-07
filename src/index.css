@@ -1,0 +1,18 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  object-fit: cover;
+}
+body {
+  padding: 1rem;
+  background-color: rgb(19, 12, 12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

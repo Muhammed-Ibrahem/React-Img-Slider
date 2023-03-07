@@ -1,0 +1,30 @@
+.wrapper {
+  overflow: hidden;
+  max-width: 600px;
+  margin-inline: auto;
+  margin-block: 2rem;
+  aspect-ratio: 16/9;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.1);
+}
+.slider {
+  display: flex;
+  flex-wrap: no-wrap;
+  aspect-ratio: 16/9;
+}
+.controllers {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+.controllers button {
+  cursor: pointer;
+  color: white;
+  width: fit-content;
+  background-color: transparent;
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 0 0 5px;
+  border: none;
+}
